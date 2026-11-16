@@ -1,0 +1,6 @@
+{
+  "name": "ছোট",
+  "description": "ভিডিও হালকা করুন, মান রাখুন — বাংলা ভিডিও কম্প্রেসার",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

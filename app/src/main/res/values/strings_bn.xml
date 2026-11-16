@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand & Tagline -->
+    <string name="app_tagline">ভিডিও হালকা করুন, মান রাখুন</string>
+
+    <!-- Primary & Action CTAs -->
+    <string name="cta_pick">ভিডিও বাছুন</string>
+    <string name="cta_compress">সংকুচিত করুন</string>
+    <string name="cta_save">সেভ করুন</string>
+    <string name="cta_saved">সেভ হয়েছে ✓</string>
+    <string name="cta_share">শেয়ার করুন</string>
+    <string name="cta_again">আরেকটি ভিডিও</string>
+    <string name="cta_cancel">বাতিল</string>
+    <string name="cta_settings">সেটিংস</string>
+    <string name="cta_retry">আবার চেষ্টা করুন</string>
+    <string name="cta_ok">ঠিক আছে</string>
+    <string name="cta_reset">রিসেট</string>
+    <string name="cta_see_all">সব দেখুন</string>
+    <string name="cta_delete">মুছে ফেলুন</string>
+    <string name="cta_undo">ফিরিয়ে আনুন</string>
+
+    <!-- States -->
+    <string name="state_compressing">সংকুচিত হচ্ছে…</string>
+    <string name="state_finishing">শেষ হচ্ছে…</string>
+    <string name="state_done">হয়ে গেছে!</string>
+
+    <!-- Labels -->
+    <string name="label_before">আগে</string>
+    <string name="label_after">এখন</string>
+    <string name="label_saved">কমেছে</string>
+    <string name="label_estimated">আনুমানিক আকার</string>
+    <string name="label_quality">মান</string>
+    <string name="label_original_kept">মূল ভিডিও অপরিবর্তিত থাকবে</string>
+    <string name="label_supported_formats">MP4 · MOV · MKV · WEBM</string>
+    <string name="label_recent">সাম্প্রতিক</string>
+    <string name="label_remaining_time">প্রায় %1$s বাকি</string>
+    <string name="label_seconds">%1$s সেকেন্ড</string>
+    <string name="label_minutes">%1$s মিনিট</string>
+    <string name="label_mb_unit">MB</string>
+    <string name="label_megabyte_word">মেগাবাইট</string>
+    <string name="label_percent_saved">%1$s কমেছে</string>
+    <string name="label_preview_meta">আগে %1$s · %2$s · %3$s</string>
+
+    <!-- Presets -->
+    <string name="preset_best">সেরা মান</string>
+    <string name="preset_best_sub">মান প্রায় একই, আকার কম</string>
+    <string name="preset_balanced">ভারসাম্য</string>
+    <string name="preset_balanced_sub">মান ও আকারের ভালো মিশ্রণ</string>
+    <string name="preset_smallest">সবচেয়ে ছোট</string>
+    <string name="preset_smallest_sub">সর্বোচ্চ সংকোচন</string>
+    <string name="preset_custom">কাস্টম</string>
+
+    <!-- Advanced Settings Sheet -->
+    <string name="adv_title">উন্নত সেটিংস</string>
+    <string name="adv_resolution">রেজোলিউশন</string>
+    <string name="adv_bitrate">বিটরেট</string>
+    <string name="adv_format">ফরম্যাট</string>
+    <string name="adv_fps">ফ্রেম রেট</string>
+    <string name="adv_audio">অডিও</string>
+    <string name="adv_audio_keep">অডিও রাখুন</string>
+    <string name="adv_audio_remove">অডিও বাদ দিন</string>
+    <string name="adv_opt_auto">অটো</string>
+    <string name="adv_opt_low">কম</string>
+    <string name="adv_opt_medium">মাঝারি</string>
+    <string name="adv_opt_high">বেশি</string>
+    <string name="adv_opt_1080p">1080p</string>
+    <string name="adv_opt_720p">720p</string>
+    <string name="adv_opt_480p">480p</string>
+    <string name="adv_opt_h264">MP4 (H.264)</string>
+    <string name="adv_opt_hevc">MP4 (HEVC)</string>
+    <string name="adv_opt_webm">WEBM</string>
+
+    <!-- History & Empty States -->
+    <string name="history_title">ইতিহাস</string>
+    <string name="history_today">আজ</string>
+    <string name="history_yesterday">গতকাল</string>
+    <string name="history_older">পুরোনো</string>
+    <string name="empty_history">এখনো কোনো ভিডিও সংকুচিত করেননি</string>
+    <string name="status_saved">সেভ হয়েছে</string>
+    <string name="status_unsaved">সেভ হয়নি</string>
+    <string name="snackbar_deleted">মুছে ফেলা হয়েছে</string>
+    <string name="delete_confirm_title">ইতিহাস থেকে মুছে ফেলবেন?</string>
+    <string name="delete_confirm_body">তালিকা থেকে এই এন্ট্রিটি সরে যাবে।</string>
+
+    <!-- Dialogs, Warnings, Errors, Toast -->
+    <string name="toast_saved">গ্যালারিতে সেভ হয়েছে</string>
+    <string name="err_generic">কিছু একটা সমস্যা হয়েছে</string>
+    <string name="err_no_space">যথেষ্ট জায়গা নেই</string>
+    <string name="err_no_space_detail">কমপক্ষে %1$s ফাঁকা জায়গা প্রয়োজন।</string>
+    <string name="err_no_change">এই ভিডিওটি আর ছোট করা সম্ভব হয়নি</string>
+    <string name="err_no_change_hint">‘সবচেয়ে ছোট’ মান বেছে নিয়ে দেখতে পারেন</string>
+    <string name="hint_already_small">এই ভিডিওটি ইতিমধ্যে ছোট</string>
+    <string name="hint_long_video">লম্বা ভিডিও — কয়েক মিনিট লাগতে পারে</string>
+    <string name="hint_no_videos">ফোনে কোনো ভিডিও পাওয়া যায়নি</string>
+    <string name="cancel_confirm_title">সংকোচন বাতিল করবেন?</string>
+    <string name="cancel_confirm_body">এখন পর্যন্ত কাজ মুছে যাবে।</string>
+    <string name="action_continue">চালিয়ে যান</string>
+    <string name="action_cancel_confirm">বাতিল করুন</string>
+    <string name="interrupted_title">সংকোচন সম্পূর্ণ হয়নি</string>
+    <string name="interrupted_body">আগের কাজটি মাঝপথে বন্ধ হয়ে গিয়েছিল।</string>
+
+    <!-- Permission Prompt -->
+    <string name="perm_title">ভিডিও দেখার অনুমতি দিন</string>
+    <string name="perm_body">ভিডিও বাছতে আমরা আপনার ফাইল দেখার অনুমতি চাই। কিছুই আপলোড হয় না।</string>
+    <string name="perm_allow">অনুমতি দিন</string>
+    <string name="perm_go_settings">সেটিংসে যান</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_default_quality">ডিফল্ট মান</string>
+    <string name="settings_save_folder">সেভ করার ফোল্ডার</string>
+    <string name="settings_default_folder">Movies/ছোট</string>
+    <string name="settings_language">অ্যাপের ভাষা</string>
+    <string name="settings_language_bn">বাংলা</string>
+    <string name="settings_about">আমাদের সম্পর্কে</string>
+    <string name="settings_privacy">গোপনীয়তা নীতি</string>
+    <string name="settings_version">ভার্সন</string>
+    <string name="about_body">ছোট একটি হালকা ও দ্রুত বাংলা ভিডিও কম্প্রেসার। এটি আপনার ফোনের মধ্যেই ভিডিওর আকার কমায় এবং মূল ফাইল সম্পূর্ণ অপরিবর্তিত রাখে।</string>
+    <string name="privacy_body">কিছুই আপলোড হয় না। সমস্ত ভিডিও সংকোচন ও বিশ্লেষণ আপনার ডিভাইসের ভেতরেই সম্পন্ন হয়। আমরা কোনো ব্যক্তিগত তথ্য বা মিডিয়া সংগ্রহ করি না।</string>
+
+    <!-- Accessibility / Content Descriptions & TalkBack -->
+    <string name="cd_back">ফিরে যান</string>
+    <string name="cd_settings">সেটিংস</string>
+    <string name="cd_play">চালান</string>
+    <string name="cd_pause">থামান</string>
+    <string name="cd_pick_video">ভিডিও বাছুন</string>
+    <string name="cd_done">সম্পন্ন</string>
+    <string name="cd_video_thumbnail">ভিডিওর প্রিভিউ ছবি</string>
+    <string name="cd_history_empty">কোনো ইতিহাস নেই</string>
+    <string name="a11y_progress_announce">সংকুচিত হচ্ছে, %1$s শতাংশ</string>
+
+    <!-- Notification Channel -->
+    <string name="notif_channel_name">ভিডিও সংকোচন</string>
+    <string name="notif_channel_desc">ভিডিও সংকুচিত হওয়ার অগ্রগতি দেখায়</string>
+    <string name="notif_progress_text">%1$s সম্পন্ন</string>
+</resources>

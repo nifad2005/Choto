@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="compressed_videos" path="compressed/" />
+    <cache-path name="thumbnails" path="thumbnails/" />
+    <files-path name="saved_videos" path="videos/" />
+</paths>
